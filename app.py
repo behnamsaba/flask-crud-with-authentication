@@ -27,7 +27,6 @@ connect_db(app)
 
 toolbar = DebugToolbarExtension(app)
 
-db.create_all()
 
 @app.route("/")
 def home_page():
